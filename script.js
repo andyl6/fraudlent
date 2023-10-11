@@ -96,7 +96,7 @@ sub25.addEventListener("click", function () {
 function adjustguess(value) {
     const currentguess = parseInt(playerguess.value);
     const newguess = currentguess + value;
-    if (newGuess >= 1 && newguess <= 100) {
+    if (newguess >= 1 && newguess <= 100) {
         playerguess.value = newguess;
     }
 }
