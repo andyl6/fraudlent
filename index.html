@@ -2,16 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> LMAOOOOOO
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">LMAOOOO
     <script src="script.js" async></script>
     <link href="style.css" rel="stylesheet">
     <title>miserable</title>
 </head>
 <body>
-    <h1>guess the number</h1>
-    <p>between 1 to 100</p>
+    <h1>Guess the number</h1>
+    <p>Between 1 to 100</p>
+    <p>very hot means within 5, hot means within 6-8, very warm means within 9-15, warm means within 16-20, cool means within 21-30, very cool means within 31-40, cold means within 41-55, very cold means within at least 55. </p>
     <input type="number" id="guess" min="1" max="100">
-    <button id="check">check number</button>
+    <button id="check">Check Number</button>
+    <button id="add1">+1</button>
+    <button id="add5">+5</button>
+    <button id="add10">+10</button>
+    <button id="add25">+25</button>
+    <button id="sub1">-1</button>
+    <button id="sub5">-5</button>
+    <button id="sub10">-10</button>
+    <button id="sub25">-25</button>
+    <button id="reload">new game</button>
     <p id="message"></p>
+    <table>
+        <thead>
+            <tr>
+                <th>attempt num |||</th>
+                <th>number guessed|||</th>
+                <th>hot/cold meter|||</th>
+            </tr>
+        </thead>
+        <tbody id="guesstable"></tbody>
+    </table>
 </body>
 </html>
